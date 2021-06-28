@@ -6,40 +6,35 @@ class DummyData {
   List<Product> getProducts() {
     return <Product>[
       Product(
-          productName: 'Mobile',
+          productName: 'T-Shirts',
           price: 150,
           isFavorite: false,
           imagePath: 'images/1.jpeg'),
       Product(
-          productName: 'Mobile',
+          productName: 'iphone 11',
           price: 652,
           isFavorite: true,
-          imagePath: 'images/1.jpeg'),
+          imagePath: 'images/2.jpeg'),
       Product(
-          productName: 'Mobile',
+          productName: 'Galaxy s21',
           price: 36,
           isFavorite: false,
-          imagePath: 'images/1.jpeg'),
+          imagePath: 'images/3.jpeg'),
       Product(
-          productName: 'Mobile',
+          productName: 'Macbook M1',
           price: 95,
           isFavorite: false,
-          imagePath: 'images/1.jpeg'),
+          imagePath: 'images/4.jpeg'),
       Product(
-          productName: 'Mobile',
+          productName: 'iMac M1',
           price: 145,
           isFavorite: false,
-          imagePath: 'images/1.jpeg'),
+          imagePath: 'images/5.jpeg'),
       Product(
-          productName: 'Mobile',
+          productName: 'T-shirt',
           price: 99,
           isFavorite: false,
-          imagePath: 'images/1.jpeg'),
-      Product(
-          productName: 'Mobile',
-          price: 45,
-          isFavorite: false,
-          imagePath: 'images/1.jpeg'),
+          imagePath: 'images/6.jpeg'),
     ];
   }
 }
