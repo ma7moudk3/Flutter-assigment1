@@ -5,7 +5,6 @@ import 'package:assignment1/widgets/product_list_item.dart';
 import 'package:flutter/material.dart';
 
 class ProductsScreen extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -39,8 +38,7 @@ class ProductsScreen extends StatelessWidget {
             ),
           ),
           Column(
-            children: DummyData.dummyData
-                .getProducts()
+            children: DummyData.dummyData.getProducts()
                 .map((e) => ProductListItem(
                       product: Product(
                           imagePath: e.imagePath,
@@ -55,4 +53,3 @@ class ProductsScreen extends StatelessWidget {
     );
   }
 }
-

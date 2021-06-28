@@ -3,12 +3,8 @@ import 'package:assignment1/model/product.dart';
 import 'package:assignment1/widgets/product_list_item.dart';
 import 'package:flutter/material.dart';
 
-class FavoriteScreen extends StatefulWidget {
-  @override
-  _FavoriteScreenState createState() => _FavoriteScreenState();
-}
+class FavoriteScreen extends StatelessWidget {
 
-class _FavoriteScreenState extends State<FavoriteScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(

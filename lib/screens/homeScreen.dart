@@ -1,3 +1,4 @@
+import 'package:assignment1/helper/dummy_data.dart';
 import 'package:assignment1/model/product.dart';
 import 'package:assignment1/screens/favoriteScreen.dart';
 import 'package:assignment1/screens/productScreen.dart';

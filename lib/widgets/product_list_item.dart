@@ -1,3 +1,4 @@
+import 'package:assignment1/helper/dummy_data.dart';
 import 'package:assignment1/model/product.dart';
 import 'package:flutter/material.dart';
 
@@ -79,6 +80,8 @@ class _ProductListItemState extends State<ProductListItem> {
                     onPressed: () {
                       setState(() {
                         widget.product.isFavorite = !widget.product.isFavorite;
+                             DummyData.dummyData
+                            .updateProduct(widget.product.productName);
                       });
                     },
                   )
@@ -91,6 +94,8 @@ class _ProductListItemState extends State<ProductListItem> {
                     onPressed: () {
                       setState(() {
                         widget.product.isFavorite = !widget.product.isFavorite;
+                        DummyData.dummyData
+                            .updateProduct(widget.product.productName);
                       });
                     },
                   ),
@@ -100,5 +105,3 @@ class _ProductListItemState extends State<ProductListItem> {
     );
   }
 }
-
-
